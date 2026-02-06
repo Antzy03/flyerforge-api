@@ -1,0 +1,19 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Test files
+*.jpg
+*.png
+*.json
+!package.json
+
+# OS
+.DS_Store
+Thumbs.db
