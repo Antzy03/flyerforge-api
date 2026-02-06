@@ -81,7 +81,7 @@ async def health_check():
     """Health check endpoint for monitoring."""
     return {
         "status": "healthy",
-        "provider": settings.image_provider,
+        "provider": "pollinations",
     }
 
 
