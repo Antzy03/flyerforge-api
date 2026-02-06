@@ -54,7 +54,7 @@ class PollinationsProvider(ImageProvider):
         # Build the full URL with query params
         url = (
             f"{self.API_URL}/{encoded_prompt}"
-            f"?width={width}&height={height}&model=zimage&nologo=true"
+            f"?width={width}&height={height}&model=gptimage&nologo=true"
         )
         
         # Set up headers with Bearer auth
