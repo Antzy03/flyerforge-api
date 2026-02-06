@@ -33,7 +33,7 @@ STYLE_PROMPTS = {
 class FlyerGeneratorService:
     """Service for generating flyers using AI image providers."""
     
-    def __init__(self, provider: Optional[ImageProvider] = None):
+    def __init__(self, provider: Optional[PollinationsProvider] = None):
         """
         Initialize the service.
         
